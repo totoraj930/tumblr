@@ -1,0 +1,402 @@
+/* note 初期化処理 */
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+html,body{
+	height: 100%;
+}
+body{
+	line-height: 1;
+	font-size: 16px;
+	font-family: "Helvetica Neue", "メイリオ", Meiryo, Helvetica, Arial, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+}
+iframe{
+	max-width: 100%;
+}
+img{
+	border: none;
+}
+a{
+	text-decoration: none;
+}
+.dummy{
+	display: block;
+	height: 0;
+	clear: both;
+}
+
+#head{
+	background-color: #98d4ff;
+	background-image: url("../img/d.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	color: #3e2f2a;
+}
+.head-inner{
+	width: 1040px;
+	margin: 0 auto;
+	padding: 4em 1em 7em 1em;
+	text-align: center;
+}
+.title{
+	font-size: 8em;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.description{
+	font-size: 1.8em;
+	font-weight: bold;
+}
+.head-copyright{
+	margin: 1em 0;
+	font-size: .95em;
+}
+.head-copyright a{
+	color: #000;
+	text-decoration: none;
+}
+.head-copyright a:hover{
+	color: #3e2f2a;
+	text-decoration: underline;
+}
+#foot{
+	background-color: #98d4ff;
+	background-image: url("../img/d.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: #3e2f2a;
+}
+.foot-inner{
+	width: 1040px;
+	margin: 0 auto;
+	padding: 1em 1em;
+}
+.copyright{
+	font-size: .95em;
+	text-align: right;
+}
+.copyright a{
+	color: #000;
+	text-decoration: none;
+}
+.copyright a:hover{
+	color: #3e2f2a;
+	text-decoration: underline;
+}
+
+
+
+#center{
+/*	background-image: url("../img/d.jpg");*/
+	padding: 3em 0;
+	background: #fff;
+}
+.section{
+	margin-bottom: 5em;
+	color: #3e2f2a;
+}
+.section-inner{
+	width: 1040px;
+	margin: 0 auto;
+	background: #fff;
+}
+.heading{
+	padding: .6em 0;
+	color: #fff;
+	font-size: 2em;
+	text-align: center;
+}
+.section-body{
+	padding: 2em 3em 5em 3em;
+}
+.section-body p a{
+	color: #006cc9;
+}
+.section-body p a:hover{
+	color: #1d94eb;
+	text-decoration: underline;
+}
+a.btn-1{
+	display: inline-block;
+	padding: 1em 2em;
+	color: #e52064;
+	border-width: 4px;
+	border-style: dashed;
+	border-color: #e52064;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+a.btn-1:hover{
+	color: #fff;
+	background: #e52064;
+}
+a.btn-2{
+	display: inline-block;
+	padding: 1em 3em;
+	color: #e52064;
+	border-width: 4px;
+	border-style: solid;
+	border-color: #e52064;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+a.btn-2:hover{
+	color: #fff;
+	background: #e52064;
+	border-style: solid;
+}
+
+
+
+/* About Loup */
+.about{
+	text-align: center;
+}
+.h-about{
+	background: #f48f1a;
+}
+.about p{
+	margin: 1em 0;
+	font-size: 1.5em;
+	line-height: 1.7;
+	text-align: center;
+}
+
+
+/* Point */
+.posint{
+
+}
+.h-point{
+	background: #dbe318;
+}
+.point-list{
+	display: block;
+	margin-top: 1em;
+	list-style: none;
+}
+.point-list li{
+	display: block;
+	width: 50%;
+	float: left;
+	margin-bottom: 2em;
+	padding: 1em;
+}
+.point-list h3{
+	display: inline-block;
+	padding: .4em 2em;
+	background: #968500;
+	color: #fff;
+	font-size: 1.3em;
+	font-weight: bold;
+}
+.point-list p{
+	padding: 1.5em 1em;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #968500;
+	font-size: 1.1em;
+	line-height: 1.5;
+}
+
+
+
+/* note How to use */
+.use{
+	text-align: center;
+}
+.h-use{
+	background: #69de14;
+}
+.use-text{
+	margin: .5em 0 2em 0;
+	font-size: 1.2em;
+	font-weight: normal;
+	line-height: 1.8;
+}
+.use-step{
+	display: block;
+	margin: 1em 0 3em 0;
+	list-style: none;
+}
+.use-step li{
+	display: block;
+	position: relative;
+	width: 32.33333%;
+	float: left;
+	margin: 0 .5%;
+	padding: .5em;
+	color: #fff;
+	text-align: center;
+}
+.use-step li:before{
+	content: "";
+	position: absolute;
+	display: block;
+	width: 0;
+	height: 0;
+	top: 50%;
+	left: 100%;
+	margin-top: -1em;
+	border-width: 1em;
+	border-style: solid;
+	z-index: 2;
+}
+.use-1{
+	background: #1a2e0c;
+}
+.use-1:before{
+	border-color: transparent transparent transparent #1a2e0c;
+}
+.use-2{
+	background: #2c5a0a;
+}
+.use-2:before{
+	border-color: transparent transparent transparent #2c5a0a;
+}
+.use-3{
+	background: #429506;
+}
+.use-3:before{
+	border: none;
+}
+.use-step h3{
+	padding: .5em 0;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+.use-step p{
+	padding: .5em 1em 1em 1em;
+}
+
+
+/* Other */
+.other{
+	text-align: left;
+}
+.h-other{
+	background: #1d94eb;
+}
+.other h3{
+	margin-top: 1.5em;
+	padding: .4em .5em;
+	border-width: 0 0 1px .3em;
+	border-style: solid;
+	border-color: #1d94eb;
+	font-size: 1.5em;
+}
+.other p{
+	margin: 1em 0;
+	font-size: 1.1em;
+	line-height: 1.7;
+}
+.social_btn{
+	list-style: none;
+}
+.social_btn li{
+	display: inline-block;
+	vertical-align: top;
+}
+.social_btn iframe{
+	max-width: none;
+}
+.facebook-box{
+	margin-bottom: 3em;
+}
+.facebook-box iframe{
+	max-width: 100%;
+}
+
+
+
+
+@media screen and (max-width: 1040px){
+	.section-inner,
+	.head-inner,
+	.foot-inner{
+		width: 100%;
+		padding: 1em 0;
+	}
+}
+@media screen and (max-width: 850px){
+	.point-list li{
+		width: 100%;
+	}
+}
+@media screen and (max-width: 640px){
+	body{
+		font-size: .95em;
+		word-wrap: break-word;
+	}
+	.title{
+		font-size: 5em;
+	}
+	.description{
+		font-size: 1.3em;
+	}
+	.section-body{
+		padding: 1em 1em;
+	}
+	a.btn-1,
+	a.btn-2{
+		display: block;
+		margin: 1em 0;
+		padding: .5em 1em;
+		border-width: 3px;
+		font-size: 1.1em;
+	}
+	.heading{
+		font-size: 1.5em;
+	}
+	.about p,
+	.use-text{
+		font-size: 1.1em;
+		text-align: left;
+	}
+	.point-list li{
+		padding: 0;
+	}
+	.point-list h3{
+		padding: .5em 1em;
+		font-size: 1.2em;
+	}
+	.point-list p{
+		font-size: 1em;
+	}
+	.use-step li{
+		width: 100%;
+		float: none;
+	}
+	.use-step li:before{
+		top: 100%;
+		left: 50%;
+		margin: 0 0 0 -.5em;
+		border-width: .5em;
+	}.use-1:before{
+		border-color: #1a2e0c transparent transparent transparent;
+	}
+	.use-2:before{
+		border-color: #2c5a0a transparent transparent transparent;
+	}
+	.use-step h3{
+		font-size: 1.1em;
+	}
+	.use-step p{
+		font-size: 1em;
+	}
+	.other h3{
+		font-size: 1.2em;
+	}
+	.other p{
+		font-size: 1.05em;
+	}
+}
+
